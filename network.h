@@ -17,6 +17,7 @@
 #include <poll.h>
 #include <errno.h>
 
+
 int prepare_server_socket(unsigned short);
 int senddata(int, const char *, int);
 int getrequest(int, char *, int);
